@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brightpath Studio | Web Design &amp; Development</title>
+  <meta name="description" content="Brightpath Studio builds fast, accessible, responsive websites.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">Bright<span>path</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact" class="btn btn-small">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>We turn ideas into fast, beautiful websites.</h1>
+          <p>Clean code, thoughtful design and a layout that works on every screen.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Get a Quote</a>
+            <a href="#services" class="btn btn-outline">Our Services</a>
+          </div>
+        </div>
+        <figure class="hero-image" role="img" aria-label="Image placeholder">
+          <span>Hero Image</span>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <h2>What We Do</h2>
+        <p class="section-intro">Three core services to take your project from sketch to launch.</p>
+        <div class="card-grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">&#9998;</div>
+            <h3>UI Design</h3>
+            <p>Wireframes and mockups that put users first.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Development</h3>
+            <p>Semantic, maintainable HTML, CSS and JavaScript.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">&#9889;</div>
+            <h3>Optimisation</h3>
+            <p>Speed, accessibility and SEO baked in from day one.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container about-inner">
+        <figure class="about-image" role="img" aria-label="Image placeholder">
+          <span>Team Photo</span>
+        </figure>
+        <div>
+          <h2>About Us</h2>
+          <p>Brightpath is a small team of designers and developers. We believe good websites start with a clear structure and end with careful details.</p>
+          <ul class="stats">
+            <li><strong>120+</strong> Projects</li>
+            <li><strong>8</strong> Years</li>
+            <li><strong>98%</strong> Happy Clients</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2>What Clients Say</h2>
+        <div class="card-grid two">
+          <blockquote class="card quote">
+            <p>They delivered exactly what our wireframes described, and it looked great on my phone.</p>
+            <footer>— Asha, Startup Founder</footer>
+          </blockquote>
+          <blockquote class="card quote">
+            <p>Clear communication, clean code and on-time delivery.</p>
+            <footer>— Rohan, Product Manager</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container narrow">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Brightpath Studio. All rights reserved.</p>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
